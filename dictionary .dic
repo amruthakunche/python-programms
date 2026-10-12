@@ -1,0 +1,6 @@
+student={"name":"Ammu","roll.no":47,"course":"MCA","cgpa":8.5,}
+print(student["name"])
+print(student["cgpa"])
+print(student)
+del student["course"]
+print(student)
