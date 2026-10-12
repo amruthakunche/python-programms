@@ -1,0 +1,8 @@
+student={"name":"ammu","age":20,"course":"MCA","Roll:no":45}
+student["city"]="hyd"
+print(student["city"])
+student.update({"age":21})
+print(student["age"])
+student.pop("name")
+print(student)
+
